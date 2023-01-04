@@ -1,0 +1,144 @@
+body
+{
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+.sapUiPopupWithPadding .sapMDialogScrollCont.sapMDialogStretchContent
+{
+    padding: 0;
+}
+
+.promptValueSelect, .promptSummary h1
+{
+    background: #FAFAFA;
+}
+
+.promptSummary .sapMPanelHdr, .promptValueSelect .sapMPanelHeaderTB h1
+{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.promptValueSelect .promptPanel h1, .promptSummary .sapMNLI-Header>.sapMText
+{
+    font-size: 1.125rem;
+}
+
+.sapUiSizeCompact .promptValueSelect .sapMTB
+{
+	height: 3rem;
+}
+
+.promptValueSelect .sapUiHLayoutChildWrapper.multiRangeAddButtonContainer,
+.promptValueSelect .sapUiHLayoutChildWrapper.multiRangeRemoveButtonContainer
+{
+    vertical-align: bottom;
+}
+
+.promptPanel.promptPanelSelected
+{
+    background: #e8eff6
+}
+
+.promptPanel .sapMPanelWrappingDiv.sapMPanelWrappingDivExpanded
+{
+    border-bottom: 1px solid #cccccc;
+}
+
+.promptValueSelect .sapMPanelContent, .promptSummary .sapMPanelContent
+{
+    padding: 0;
+}
+
+/*.promptValueSelect .sapMInputBaseErrorInner,
+.promptValueSelect .sapMInputBaseSuccessInner,
+.promptValueSelect .sapMInputBase.sapMMultiInput.sapMInputBaseSuccess .sapMMultiInputBorder,
+.promptValueSelect .sapMInputBase.sapMMultiInput.sapMInputBaseError .sapMMultiInputBorder,
+.promptValueSelect .sapMSltSuccess,
+.promptValueSelect .sapMSltError
+{
+    border-color: #bfbfbf;
+}*/
+
+/*.promptValueSelect .sapMInputBaseState .sapMInputBaseInner.sapMInputBaseStateInner,
+.promptValueSelect .sapMInputBaseStateInner,
+.promptValueSelect .sapMSltState,
+.promptValueSelect .sapMMultiInput.sapMInputBaseState .sapMMultiInputBorder
+{
+	border-width: 1px;
+}*/
+
+.promptValueSelect .sapMInputBaseInner,
+.promptValueSelect .sapMToken
+{
+    color:#427CAC;
+}
+
+.promptSummary .sapMLIB.sapMNLB
+{
+    border-radius: 0;
+    margin:0;
+}
+
+.promptPanel .sapMPanelExpandablePart.sapMPanelContent 
+{
+    padding: 1rem;
+}
+
+.promptValueSelect .promptDatePicker
+{
+    right: 2.0625rem;
+}
+
+.promptValueSelect .promptDatePickerRTL
+{
+    left: 2.0625rem;
+}
+
+.promptSummary .sapMNLB-Priority
+{
+    background:transparent;
+    width:1.875rem;
+    font-family: SAP-icons;
+    font-size:1.125rem;    
+}
+
+.promptSummary .sapMNLB-Low span
+{
+    color:#2B7D2B;
+}
+
+.promptSummary .sapMNLB-High span
+{
+    color:#BB0000;
+}
+
+.promptSummary .sapMNLI-Header,
+.promptSummary .sapMNLI-Body,
+.promptSummary .sapMNLB-Footer
+{
+    margin-left: 1.875rem;
+}
+
+.lovNotificationBar .lovNotificationFont
+{
+    font-style: italic;
+    font-size: 0.875rem;
+    color: #ffffff;
+    text-shadow: none;
+}
+
+.lovNotificationBar
+{
+    background: #f9a429;
+    color: #ffffff;
+    height: 2rem;
+    padding: 0 0.5rem;
+    border-bottom: none;
+} 
+
+.hierachyLOVDialogFontStyle .sapMSLITitleOnly
+{
+    font-size: 0.875rem;
+}
+/* --------------- */
